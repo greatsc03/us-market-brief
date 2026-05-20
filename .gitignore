@@ -1,0 +1,6 @@
+kakao_tokens.json
+.env
+__pycache__/
+*.pyc
+*.pyo
+.python-version
