@@ -1,10 +1,9 @@
-name: 미국 증시 일일 브리핑
+name: US Market Brief
 
 on:
   schedule:
-    # 평일 22:30 UTC = 다음날 07:30 KST (미국 시장 마감 4PM ET 기준 90분 후)
     - cron: '30 22 * * 1-5'
-  workflow_dispatch:   # 수동 실행 허용
+  workflow_dispatch:
 
 jobs:
   brief:
